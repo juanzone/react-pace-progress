@@ -36,7 +36,6 @@ class Pace extends Component {
         width: Math.floor(this.state.width * 100) + '%'
       },
       container: {
-        position: 'absolute',
         width: '100%'
       }
     };
