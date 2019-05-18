@@ -51,10 +51,10 @@ class Pace extends Component {
   render() {
     const styles = this.getStyles();
 
-    const {id, className} = this.props;
+    const {id, className, containerStyle} = this.props;
 
     return (
-      <div style={styles.container}>
+      <div style={[styles.container, containerStyle]}>
         <div {...{id, className}} style={styles.main}/>
       </div>
     );
